@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .full-screen {
@@ -31,10 +32,18 @@ body {
 .subheading {
   font-size: 1.5em;
   line-height: 1.5em;
+  margin: 0 auto;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .btn {
+display: inline-block;
+
   text-transform: capitalize;
 
+  margin-top: 25px;
   padding: 12px 20px;
   border: 1px solid #926239;
   color: inherit;
